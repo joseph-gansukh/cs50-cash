@@ -1,6 +1,6 @@
 ![coins](img/coins.jpg)
 
-# cash-1.c
+# cash.c
 
 When dispensing change for customers, you would want to minimize the number of coins being dispensed. Using greedy algorithm, I solved the minimum number of coins that is due upon dispensing. 
 
@@ -15,13 +15,13 @@ Say we have a customer owed $1.10 in change. We could give 110 pennies, or 11 di
 Program should behave as below examples:
 
 ```
-$ ./cash-1
+$ ./cash
 Change owed: 0.41
 4
 ```
 
 ```
-$ ./cash-1
+$ ./cash
 Change owed: 1.10
 5
 ```
@@ -30,8 +30,8 @@ Change owed: 1.10
 
 # How to run the programs?
 
-1. Compile by running make or clang or gcc in terminal
-2. Run the program by running ./cash-1
+1. Compile by running make cash or clang -o cash cash.c in terminal
+2. Run the program by running ./cash
 
 
 # Word of caution when compiling
